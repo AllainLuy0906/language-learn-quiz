@@ -30,6 +30,12 @@ const QuizSelectionPage = () => {
       difficulty: "Intermediate" as const
     },
     {
+      language: "Laravel",
+      description: "Test your knowledge of the Laravel PHP framework, Eloquent ORM, and ecosystem.",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
+      difficulty: "Intermediate" as const
+    },
+    {
       language: "C++",
       description: "Challenge your understanding of C++ including memory management, STL, and more.",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",

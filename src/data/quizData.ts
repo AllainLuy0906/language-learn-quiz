@@ -1,4 +1,3 @@
-
 export interface Question {
   question: string;
   options: string[];
@@ -793,6 +792,168 @@ export const quiz_data: QuizData = {
       question: "Which operator is used for null-coalescing in C#?",
       options: ["?:", "??", "?.", "::"],
       correctAnswer: "??"
+    }
+  ],
+  "Laravel": [
+    {
+      question: "Laravel is a web application framework with expressive, elegant syntax based on which programming language?",
+      options: ["JavaScript", "Ruby", "PHP", "Python"],
+      correctAnswer: "PHP"
+    },
+    {
+      question: "Which of the following is Laravel's template engine?",
+      options: ["Twig", "Blade", "Smarty", "Mustache"],
+      correctAnswer: "Blade"
+    },
+    {
+      question: "What is the name of Laravel's ORM?",
+      options: ["Hibernate", "Doctrine", "Entity Framework", "Eloquent"],
+      correctAnswer: "Eloquent"
+    },
+    {
+      question: "Which command is used to create a new Laravel project using Composer?",
+      options: [
+        "composer new laravel",
+        "composer create-project laravel/laravel",
+        "composer make:project laravel",
+        "laravel new project"
+      ],
+      correctAnswer: "composer create-project laravel/laravel"
+    },
+    {
+      question: "Laravel follows which architectural pattern?",
+      options: ["MVVM", "MVP", "MVC", "MVT"],
+      correctAnswer: "MVC"
+    },
+    {
+      question: "What is Artisan in Laravel?",
+      options: [
+        "A database migration tool",
+        "A template engine",
+        "The command-line interface",
+        "A frontend framework"
+      ],
+      correctAnswer: "The command-line interface"
+    },
+    {
+      question: "Which of the following is NOT a Laravel middleware?",
+      options: ["Auth", "Cors", "PageSpeed", "Throttle"],
+      correctAnswer: "PageSpeed"
+    },
+    {
+      question: "What is the purpose of the '.env' file in Laravel?",
+      options: [
+        "To store JavaScript environment variables",
+        "To configure environment-specific settings",
+        "To define environment functions",
+        "To set up environment paths"
+      ],
+      correctAnswer: "To configure environment-specific settings"
+    },
+    {
+      question: "Which command creates a new controller in Laravel?",
+      options: [
+        "php artisan create:controller",
+        "php artisan new:controller",
+        "php artisan make:controller",
+        "php artisan controller:create"
+      ],
+      correctAnswer: "php artisan make:controller"
+    },
+    {
+      question: "What is a 'Facade' in Laravel?",
+      options: [
+        "A design pattern for frontend components",
+        "A static interface to classes in the service container",
+        "A way to organize CSS files",
+        "A database normalization technique"
+      ],
+      correctAnswer: "A static interface to classes in the service container"
+    },
+    {
+      question: "Which of these is NOT a valid Laravel relationship type?",
+      options: ["hasOne", "belongsTo", "hasConnection", "belongsToMany"],
+      correctAnswer: "hasConnection"
+    },
+    {
+      question: "What does the 'php artisan serve' command do?",
+      options: [
+        "Serves static assets",
+        "Starts the Laravel development server",
+        "Compiles frontend assets",
+        "Runs all scheduled tasks"
+      ],
+      correctAnswer: "Starts the Laravel development server"
+    },
+    {
+      question: "What is Laravel Mix?",
+      options: [
+        "A package manager",
+        "A frontend API",
+        "An API wrapper for Webpack",
+        "A database seeder tool"
+      ],
+      correctAnswer: "An API wrapper for Webpack"
+    },
+    {
+      question: "Which directory contains the compiled Blade templates in Laravel?",
+      options: ["storage/views", "storage/cache", "storage/framework/views", "resources/compiled"],
+      correctAnswer: "storage/framework/views"
+    },
+    {
+      question: "What is a Service Provider in Laravel?",
+      options: [
+        "A third-party service integration",
+        "A class that registers services in the service container",
+        "A front-end component provider",
+        "An API service"
+      ],
+      correctAnswer: "A class that registers services in the service container"
+    },
+    {
+      question: "Which of the following is NOT a type of middleware in Laravel?",
+      options: ["Global middleware", "Route middleware", "Component middleware", "Controller middleware"],
+      correctAnswer: "Component middleware"
+    },
+    {
+      question: "What is the purpose of Laravel's Eloquent 'factory' feature?",
+      options: [
+        "To create new Eloquent models",
+        "To generate fake data for testing",
+        "To manufacture new application features",
+        "To build database queries"
+      ],
+      correctAnswer: "To generate fake data for testing"
+    },
+    {
+      question: "Which Laravel command is used to run database migrations?",
+      options: [
+        "php artisan db:migrate",
+        "php artisan migrate",
+        "php artisan database:migrate",
+        "php artisan migration:run"
+      ],
+      correctAnswer: "php artisan migrate"
+    },
+    {
+      question: "What is Laravel Sanctum used for?",
+      options: [
+        "Form validation",
+        "Authentication for SPAs, mobile apps, and API tokens",
+        "Database encryption",
+        "CSRF protection"
+      ],
+      correctAnswer: "Authentication for SPAs, mobile apps, and API tokens"
+    },
+    {
+      question: "What does the 'dd()' function do in Laravel?",
+      options: [
+        "Delete a database",
+        "Dump data and die (stop execution)",
+        "Display debug information",
+        "Disable development mode"
+      ],
+      correctAnswer: "Dump data and die (stop execution)"
     }
   ]
 };
